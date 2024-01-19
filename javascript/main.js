@@ -252,10 +252,26 @@
         },
         loop: true,
         autoplay: {
-          delay: 3000,
+          delay: 4000,
           disableOnInteraction: true,
       },
     });//Slide
+
+    // Partner Swipper
+
+    // var swiper = new Swiper(".partner-slider", {
+    //     effect: "fade",
+    //     pagination: {
+    //         el: ".swiper-pagination",
+    //         clickable: true,
+    //         dynamicBullets: true,
+    //     },
+    //     // loop: true,
+    //     autoplay: {
+    //       delay: 3000,
+    //       disableOnInteraction: true,
+    //   },
+    // });
 
     //Imgae Slide about
     var swiper3 = new Swiper(".image-carousel", {
@@ -305,6 +321,7 @@
         nav: false,
         dots: false,
         autoplay: true,
+        autoplayTimeout:2000,
         responsive: {
             0: {
                 items: 2

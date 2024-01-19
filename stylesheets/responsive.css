@@ -786,8 +786,8 @@
 	}
 
 	.slide-item {
-		padding-top: 30px !important;
-		padding-bottom: 150px !important;
+		padding-top: 0px !important;
+		padding-bottom: 0px !important;
 	}
 
 	.slide-item {
@@ -1140,5 +1140,14 @@
 	}
 	.join-community{
 		padding-left: 0px;
+	}
+	.icon-testimonil {
+		position: absolute;
+		top: -20px;
+		left: 0px;
+		width: 30px;
+	}
+	.benefit-on-left {
+		padding-right: 25px;
 	}
 }

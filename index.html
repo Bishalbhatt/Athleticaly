@@ -102,14 +102,14 @@
             <div class="header-inner">
                 <div id="logo" class="logo">
                     <a href="#" rel="home">
-                        <img id="a2" src="images/custom/logo.png" alt="image" class="header-logo">
+                        <img src="images/custom/logo.png" alt="image" class="header-logo">
                         <p class="logo-para">Athleticaly</p>
                     </a>
                 </div><!-- /.logo -->
                 <div class="nav-wrap">
                     <div class="btn-menu">
                         <span class="icon-menu"></span>
-                        <!-- <i class="fa-solid fa-bars"></i> -->
+                        <i class="fa-solid fa-bars"></i>
                     </div><!-- //mobile menu button -->
                     <nav id="mainnav" class="mainnav">
                         <div id="logo-mobie" class="logo">
@@ -722,9 +722,10 @@
                                 Our vibrant sports community caters to all domains. We organize exciting events, provide valuable tutorials, 
                                 and keep you updated with the latest news across various sports.
                             </p>
+                            <p class="added-about post">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, consectetur.</p>
                             <div class="line"></div>
                             <div class="about-button-group">
-                                <button class="flat-button wow fadeInUp animated">Find out more</button>
+                                <button class="flat-button wow fadeInUp animated" onclick="showAbout()">Find out more</button>
                                 <div class="infor-about">
                                     <img src="images/about/info.png" alt="">
                                     <div class="info">
@@ -754,7 +755,7 @@
                         <div class="col-md-4 benefit-on-left">
                             <div class="benefit-item">
                                 <div class="benefit-content">
-                                    <h6 class="title-benefit wow fadeInLeft animated">
+                                    <h6 class="title-benefit wow fadeInLeft animated arrow-benefit-title">
                                         Home: 🏠 Your Sports Hub
                                     </h6>
                                     <p class="description-benefit wow fadeInLeft animated">
@@ -768,7 +769,7 @@
                             </div>
                             <div class="benefit-item">
                                 <div class="benefit-content">
-                                    <h6 class="title-benefit wow fadeInLeft animated">
+                                    <h6 class="title-benefit wow fadeInLeft animated arrow-benefit-title">
                                         Connect: 🤝 Your Sporting Social Network
                                     </h6>
                                     <p class="description-benefit wow fadeInLeft animated">
@@ -808,7 +809,7 @@
                                     <span class="number wow zoomIn animated">03</span>
                                 </div>
                                 <div class="benefit-content">
-                                    <h6 class="title-benefit wow fadeInRight animated">
+                                    <h6 class="title-benefit wow fadeInRight animated arrow-benefit-title">
                                         Explore: 🔍 Uncover Sporting Gems
                                     </h6>
                                     <p class="description-benefit wow fadeInRight animated">
@@ -822,7 +823,7 @@
                                     <span class="number wow zoomIn animated">04</span>
                                 </div>
                                 <div class="benefit-content">
-                                    <h6 class="title-benefit wow fadeInRight animated">
+                                    <h6 class="title-benefit wow fadeInRight animated arrow-benefit-title">
                                         Profile: 🌟 Your Game, Your Spotlight</h6>
                                     <p class="description-benefit wow fadeInRight animated">
                                         Craft the most attractive sports resume, showcasing your achievements and skills. In the Profile section,
@@ -906,7 +907,9 @@
                     </div>
                     <div class="tf-info-price text-center">
                         <!-- <h4>Download App</h4> -->
-                        <p class="price"><span><i class="fa-brands fa-google-play"></i></span></p>
+                        <p class="price"><span>
+                            <i class="fa-brands fa-google-play"></i>
+                        </span></p>
                         <a href="#" class="flat-button ">Download</a>
                         <div class="item-event-price-bg">
                         </div>
@@ -955,7 +958,9 @@
                     </div>
                     <div class="tf-info-price text-center">
                         <!-- <h4>Ticket</h4> -->
-                        <p class="price"><span><i class="fa-brands fa-google-play"></i></span></p>
+                        <p class="price"><span>
+                            <i class="fa-brands fa-google-play"></i>
+                        </span></p>
                         <a href="#" class="flat-button ">Download</a>
                         <!-- <p class="price"><span>&#8377;89</span>/ticket</p>
                         <a href="#" class="flat-button ">Learn more</a> -->
@@ -1476,8 +1481,7 @@
     </div> -->
 
      <!-- widget benefit -->
-     <div class="tf-widget-benefit-v2" style="background-color: #da898c;
-     background-image: linear-gradient(147deg, #da898c 0%, #59090c 74%);">
+     <div class="tf-widget-benefit-v2" style="background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);">
         <div class="themeflat-container">
             <div class="tf-benefit-v2">
                 <div class="title-box-v2 center-title-box title-large">
@@ -1547,14 +1551,13 @@
     <!-- Team-member -->
 
     <!-- banner-paralax -->
-    <div class="tf-widget-banner">
+    <!-- <div class="tf-widget-banner">
         <div class="themeflat-container">
             <div class="tf-banne-paralax join-community">
                 <h2 class="title-banner wow fadeInUp animated community-header">
                     JOIN OUR SPORTS COMMUNITY NOW
                 </h2>
-                <!-- <span class="sale wow fadeInUp animated ">-30%</span> -->
-                <!-- <img src="images/retinal/runclub.png" alt="runclub" class="wow fadeInUp animated"> -->
+               
                 <div class="contactsInCommunity">
                     <h5>📞 PHONE: +91 8181818181</h5>
                     <h5>📧 EMAIL: email_ID@athleticaly.com</h5>
@@ -1562,7 +1565,8 @@
                 <a href="contact.html" class="flat-button wow fadeInUp animated ">Join now</a>
             </div>
         </div>
-    </div><!-- banner-paralax -->
+    </div> -->
+    <!-- banner-paralax -->
 
 
     <!-- widge Form register -->
@@ -1605,7 +1609,11 @@
                         </li> -->
                     </ul>
                     <div class="form-register">
-                        <form action="#" method="post" id="registerform" class="register-form" novalidate="">
+                        <h3>Download our App:</h3>
+                        <a href="#">
+                            <img src="images/custom/playstore.png" alt="" class="form-area-image">
+                        </a>
+                        <!-- <form action="#" method="post" id="registerform" class="register-form" novalidate="">
                             <fieldset class="name-container">
                                 <input type="text" id="author" placeholder="Your name*" class="tb-my-input"
                                     name="author" tabindex="1" value="" size="32" aria-required="true">
@@ -1628,7 +1636,7 @@
                                 <input name="submit" type="submit" id="comment-reply" class="submit-register"
                                     value="Join now">
                             </p>
-                        </form>
+                        </form> -->
                     </div>
                 </div>
             </div>
@@ -1646,11 +1654,11 @@
         <div class="footer-widgets">
             <div class="themeflat-container">
                 <div class="row footer-top">
-                    <div class="col-xxl-5 col-lg-5 col-xl-5 col-md-12 logo-footer">
+                    <div class="col-xxl-6 col-lg-6 col-xl-6 col-md-12 logo-footer">
                         <div class="widget">
                             <div class="textwidget">
                                 <div class="footer-logo">
-                                    <img id="a1" src="images/custom/logo.png" alt="images">
+                                    <img src="images/custom/logo.png" alt="images">
                                     <p class="footer-logo-para"><a href="#">Athleticaly</a></p>
                                 </div>
                                 <p>
@@ -1678,7 +1686,7 @@
                                 <li><a href="#">App Features</a></li>
                                 <li><a href="#">Privacy Policy</a></li>
                                 <li><a href="#">Contact Us</a></li>
-                                <li><a href="#"><i class="fa-solid fa-download"></i> Our App</a></li>
+                                <!-- <li><a href="#"><i class="fa-solid fa-download"></i> Our App</a></li> -->
                             </ul><!-- /.menu -->
                         </div><!-- /.widget -->
                         <!-- <div class="widget widget_menu-footer">
@@ -1692,11 +1700,11 @@
                         </div> -->
                     </div>
     
-                    <div class="col-xxl-5 col-lg-5 col-xl-5 col-md-6 new-letter">
+                    <div class="col-xxl-4 col-lg-4 col-xl-4 col-md-6 new-letter">
                         <div class="widget widget_text">
-                            <h5 class="widget-title">Newsletter</h5>
-                            <p>Subscribe to our newsletter for the latest updates and exclusive offers.</p>
-                            <div class="text-phone">
+                            <h5 class="widget-title">Contact Information</h5>
+                            <!-- <p>Subscribe to our newsletter for the latest updates and exclusive offers.</p> -->
+                            <!-- <div class="text-phone">
                                 <svg width="36" height="37" viewBox="0 0 36 37" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -1713,37 +1721,44 @@
                                         fill="white" />
                                 </svg>
                                 <div class="address">
-                                    <!-- <p>Need help? 24/7</p> -->
+                                    
                                     <span>+91 8181818181</span>
                                 </div>
-                            </div>
-                            <p><i class="icon-MapPin"></i>Guwahati, Assam, India</p>
-                            <form action="#">
+                            </div> -->
+                            <p class="footer-contacts"><i class="fa-solid fa-phone"></i><a href="tel: +91 8181818181" class="footer-links">+91 8181818181</a</p>
+                            <p class="footer-contacts"><i class="fa-solid fa-envelope"></i></i><a href="mailto: email_ID@athleticaly.com" class="footer-links">email_ID@athleticaly.com </a></p>
+                            <p class="footer-contacts"><i class="icon-MapPin"></i>Guwahati, Assam, India</p>
+                            <p class="footer-contacts"><i class="fa-solid fa-download"></i><a href="#" class="footer-links">Our App</a></p>
+                            <!-- <form action="#">
                                 <div class="input-new-letter">
                                     <input class="btn-email" name="email" id="emails" type="email"
                                         placeholder="Your email address" required>
                                     <button class="btn-submit" type="submit"><i class="icon-uniE925"></i></button>
                                 </div>
-                            </form>
+                            </form> -->
                         </div><!-- /.widget -->
                     </div><!-- /.col-md-4 -->
     
                 </div><!-- /.row -->
                 <div class="row footer-bottom">
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-12 col-sm-12 text-center">
                         <div class="copyright">
-                            <p>©<script>document.write(new Date().getFullYear());</script>
-                                <a href="#" target="_blank"> Athleticaly.</a> All Rights Reserved.
+                            <p>
+                                <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+                                    document.write(new Date().getFullYear());
+                                    </script>
+                                    All Rights Reserved &copy; <a href="#">Athleticaly</a>
+                                    <a href="https://techcreativesolitude.000webhostapp.com/" target="_blank"> Developed by TechCreative
+                                        Solitude</a>
                             </p>
                         </div>
                     </div><!-- /.col-md-6 -->
-                    <div class="col-md-6 col-sm-12">
+                    <!-- <div class="col-md-6 col-sm-12">
                         <ul class="link-footer-bottom">
                             <li><a href="#">Terms Of Services</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <!-- <li><a href="#">Cookie Policy</a></li> -->
-                        </ul><!-- /.menu -->
-                    </div><!-- /.col-md-6 -->
+                            <li><a href="#">Privacy Policy</a></li>    
+                        </ul>
+                    </div> -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
         </div><!-- /.footer-widgets -->
@@ -1872,10 +1887,12 @@
     <script type="text/javascript" src="javascript/jquery-waypoints.js"></script>
     <script type="text/javascript" src="javascript/jquery-countTo.js"></script>
     <script type="text/javascript" src="javascript/main.js"></script>
+    <script type="text/javascript" src="javascript/custom.js"></script>
+
     
     <!-- Headers and Footers -->
-    <script type="text/javascript" src="include/header.js"></script>
-    <script type="text/javascript" src="include/footer.js"></script>
+    <!-- <script type="text/javascript" src="include/header.js"></script>
+    <script type="text/javascript" src="include/footer.js"></script> -->
     </body>
     
     
