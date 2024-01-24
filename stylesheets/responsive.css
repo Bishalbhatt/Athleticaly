@@ -644,7 +644,7 @@
 /* All Mobile Sizes */
 @media only screen and (max-width: 767px) {
 	.tf-banner {
-		height: 1200px !important;
+		/* height: 1200px !important; */
 	}
 	.pd-l-banner {
 		padding-left: 12px;
@@ -1149,5 +1149,20 @@
 	}
 	.benefit-on-left {
 		padding-right: 25px;
+	}
+	.slider-head{
+		transform: translateY(0px) !important;
+	}
+	.slider-second-head{
+		transform: translateY(0px) !important;
+	}	
+	.slider-para{
+		transform: translateY(0px) !important;
+	}
+	.slider-button{
+		transform: translateY(0px) !important;
+	}
+	.slide-item{
+		margin-bottom: 50px;
 	}
 }

@@ -2590,7 +2590,7 @@ a.shop-now::before {
 	margin-bottom: 20px;
     width: 5rem;
     border-radius: 50%;
-    box-shadow: 1px 1px 5px #c3e92d;
+    /* box-shadow: 1px 1px 5px #c3e92d; */
 }
 
 .logo-footer p {
@@ -3342,7 +3342,7 @@ ul.link-footer-bottom {
 .header-logo{
 	width: 3.6rem;
     border-radius: 50%;
-    box-shadow: 1px 1px 5px white;
+    /* box-shadow: 1px 1px 5px white; */
 }
 
 .contactsInCommunity{
@@ -3429,6 +3429,17 @@ header{
 .fa-bars::before{
 	display: none;
 }
+
+.benefit-two{
+	background-image: url('../images/bb.jpg');
+	background-size: cover;
+	width: 100%;
+}
+.benefit-two-head-title{
+	color: black;
+}
+
+
 
 /* .sporting-benefits{
 	background: red !important;
