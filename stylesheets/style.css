@@ -571,7 +571,8 @@ input[type="color"],
 	margin: auto;
 	justify-content: center;
 	align-items: center;
-	background-color: var(--black);
+	/* background-color: var(--black); */
+	background-color: #050505;
 }
 
 .header-top {
@@ -2428,6 +2429,7 @@ input#email-sb {
 footer {
 	padding: 60px 0 0px;
 	color: var(--line);
+	background-color: #050505;
 }
 
 /* Footer widget
@@ -3413,9 +3415,9 @@ header{
 
 .form-area-image{
 	margin-top: 20px;
-    width: 150px;
-	box-shadow: 1px 1px 5px black;
-    padding: 10px;
+    width: 160px;
+    /* box-shadow: 1px 1px 5px black; */
+    /* padding: 10px; */
 }
 
 .footer-contacts{
@@ -3437,6 +3439,9 @@ header{
 }
 .benefit-two-head-title{
 	color: black;
+}
+.beyond-heading{
+	color: #c3e92d;
 }
 
 

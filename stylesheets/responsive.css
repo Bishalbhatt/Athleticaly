@@ -126,11 +126,11 @@
 		padding-left: 12px;
 	}
 
-	.header-inner .header-right,
+	/* .header-inner .header-right,
 	.header.style2 .btn-menu-active,
 	.setting-wrap {
-		display: none;
-	}
+		display: block;
+	} */
 
 	.header-inner .nav-wrap {
 		float: right;
@@ -180,6 +180,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: flex-start;
+		/* display: none; */
 	}
 	.tf-widget-slider-v2 {
 		padding-top: 10px;
@@ -309,13 +310,13 @@
 		padding-left: 15px;
 	}
 
-	.btn-menu {
+	/* .btn-menu {
 		display: block;
-	}
+	} */
 
 	#mainnav,
 	.header-inner .header-right {
-		display: none;
+		display: hidden;
 	}
 
 	.header-inner .logo {
@@ -1164,5 +1165,8 @@
 	}
 	.slide-item{
 		margin-bottom: 50px;
+	}
+	.btn-menu {
+		display: block;
 	}
 }
