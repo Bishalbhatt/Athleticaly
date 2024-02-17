@@ -58,7 +58,7 @@
         $(window).on('load resize', function () {
             var currMenuType = 'desktop';
 
-            if (matchMedia('only screen and (max-width: 991px)').matches) {
+            if (matchMedia('only screen and (max-width: 768px)').matches) {
                 currMenuType = 'mobile';
             }
 

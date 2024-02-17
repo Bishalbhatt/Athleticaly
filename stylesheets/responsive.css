@@ -314,10 +314,10 @@
 		display: block;
 	} */
 
-	#mainnav,
+	/* #mainnav,
 	.header-inner .header-right {
-		display: hidden;
-	}
+		display: block;
+	} */
 
 	.header-inner .logo {
 		float: left;
@@ -1168,5 +1168,18 @@
 	}
 	.btn-menu {
 		display: block;
+	}
+	.logo-name{
+		display: none;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.menu{
+		display: block !important;
+	}
+	#logo-mobie{
+		display: none;
 	}
 }
