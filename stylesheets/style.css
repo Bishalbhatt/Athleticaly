@@ -3445,6 +3445,10 @@ header{
 	color: #c3e92d;
 }
 
+.contact-link:hover{
+	color: white;
+}
+
 
 
 /* .sporting-benefits{
