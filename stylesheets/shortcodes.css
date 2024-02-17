@@ -1653,7 +1653,7 @@ p.testimonial {
 
 ul.social-media {
 	display: flex;
-	gap: 24px;
+	gap: 15px;
 }
 
 .social-media li>a {
