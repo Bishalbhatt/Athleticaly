@@ -1188,8 +1188,8 @@ p.flat-description-slider {
 	/* border-radius: 100%; */
 	position: relative;
 	margin: 0 7px;
-	padding: 5px;
-	border-radius: 20px;
+	/* padding: 5px;
+	border-radius: 20px; */
 }
 
 .benefit-video i {
@@ -1211,9 +1211,9 @@ p.flat-description-slider {
 
 .benefit-video img.video {
 	/* border-radius: 100%; */
-	border: 14px solid rgba(255, 177, 133, 0.2);
-	border-radius: 20px;
-	height: 460px;
+	border: 2px solid rgba(255, 177, 133, 0.2);
+	/* border-radius: 20px; */
+	height: 500px;
     width: 350px;
 }
 

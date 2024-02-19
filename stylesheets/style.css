@@ -2591,7 +2591,7 @@ a.shop-now::before {
 
 .logo-footer img {
 	margin-bottom: 20px;
-    width: 5rem;
+    width: 4rem;
     border-radius: 50%;
     /* box-shadow: 1px 1px 5px #c3e92d; */
 }
@@ -3336,7 +3336,7 @@ ul.link-footer-bottom {
 }
 
 .logo-para{
-	padding-left: 20px;
+	padding-left: 10px;
 	font-size: 20px;
 	font-family: 'Times New Roman', Times, serif;
 	font-weight: 600;
@@ -3344,8 +3344,10 @@ ul.link-footer-bottom {
 
 .header-logo{
 	width: 3.6rem;
+	width: 3.0rem;
     border-radius: 50%;
     /* box-shadow: 1px 1px 5px white; */
+	filter: brightness(2.0);
 }
 
 .contactsInCommunity{
@@ -3449,7 +3451,10 @@ header{
 	color: white;
 }
 
-
+.footer-logo-para{
+	font-size: 20px !important;
+	margin-left: 10px;
+}
 
 /* .sporting-benefits{
 	background: red !important;
