@@ -1166,11 +1166,11 @@ ul.submenu li:hover {
 }
 #mainnav-mobi.active {
     left: 0px;
-	display: block !important;
+	display: none !important;
 }
 
 #mainnav-mobi ul {
-	display: block;
+	display: none;
 	list-style: none;
 	margin: 0;
 	padding: 0;
