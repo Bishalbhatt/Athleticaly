@@ -1183,10 +1183,11 @@
 
 
 @media (min-width: 768px) and (max-width: 991px) {
-	.menu{
+	/* .menu{
 		display: block !important;
 	}
 	#logo-mobie{
 		display: none;
-	}
+	} */
+
 }
