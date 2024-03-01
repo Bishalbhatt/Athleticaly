@@ -3569,7 +3569,7 @@ header{
 	  border-bottom: 1px solid white;
     }
     .nav > #nav-check:checked ~ .nav-list {
-		height: calc(65vh - 50px);
+		height: calc(50vh - 50px);
 		z-index: -1;
 		background: black;
 		/* border: 1PX SOLID WHITE; */
