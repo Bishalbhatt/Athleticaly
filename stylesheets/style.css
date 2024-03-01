@@ -3336,6 +3336,11 @@ ul.link-footer-bottom {
 }
 
 .logo-para{
+	font-size: 15px;
+	margin-top: 3px;
+}
+
+.logo-para{
 	padding-left: 10px;
 	font-size: 20px;
 	font-family: 'Times New Roman', Times, serif;
@@ -3469,7 +3474,7 @@ header{
     background-color: black;
     display: flex;
     align-items: center;
-	padding: 5px 0;
+	padding: 15px 0;
     padding-left: 20px;
     overflow: hidden;
   }
@@ -3485,7 +3490,7 @@ header{
     display: flex;
     align-items: center;
     /* row-gap: 26px; */
-    column-gap: 15px;
+    column-gap: 3px;
     font-weight: 500;
     text-decoration: none;
   }
