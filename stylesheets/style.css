@@ -3471,7 +3471,7 @@ header{
 
 .nav {
     width: 100%;
-    background-color: black;
+    background-color: #050505;
     display: flex;
     align-items: center;
 	padding: 15px 0;
@@ -3515,7 +3515,7 @@ header{
   }
  .nav-title img{
     width: 3rem;
-    filter: brightness(1.5);
+    /* filter: brightness(1.5); */
     /* padding-top: 6px; */
     margin-top: 5px;
  }
@@ -3602,4 +3602,39 @@ header{
 
 
 /* Only Navbar */
+
+/* Contact_Image start */
+
+.poppins-thin {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+  }
+.playstorebutton{
+	background-color: #050505;
+	display: flex;
+	align-items: flex-end;
+	width: fit-content;
+	padding: 5px 10px;
+	margin-top: 15px;
+	border: 8px solid  dimgrey;
+	/* height: 80px; */
+}
+
+.playstorebutton .contact-image img{
+	width: 40px;
+}
+
+.playstorebutton .contact-text{
+	color: white;
+}
+.playstorebutton .contact-text h4{
+	color: white;
+	margin-bottom: 0;
+	/* font-size: 30px; */
+}
+
+
+
+/* Contact_Image end */
 
