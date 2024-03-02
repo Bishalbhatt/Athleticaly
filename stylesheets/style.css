@@ -3618,6 +3618,7 @@ header{
 	padding: 5px 10px;
 	margin-top: 20px;
 	border: 8px solid  dimgrey;
+	border-radius: 20px;
 	/* height: 80px; */
 }
 
@@ -3631,8 +3632,20 @@ header{
 .playstorebutton .contact-text h4{
 	color: white;
 	margin-bottom: 0;
+	animation: playhead 1.5s linear infinite; 
 	/* font-size: 30px; */
 }
+@keyframes playhead{ 
+   0%{ 
+     opacity: 0; 
+   } 
+   50%{ 
+     opacity: 0.7; 
+   } 
+   100%{ 
+     opacity: 0; 
+   } 
+ } 
 
 
 
